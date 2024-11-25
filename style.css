@@ -63,3 +63,12 @@ input[type=submit]:hover {
   font-size: 20px;
   font-weight: bold;
   }
+
+  /* Footer*/
+  footer p {
+    background: #385998;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-left: 15px;
+  }
