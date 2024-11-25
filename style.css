@@ -10,7 +10,7 @@ html, body {
 }
 
 header {
-  background: #385898;
+  background: #385998;
   color: #fff;
 }
 
@@ -37,3 +37,29 @@ main p {
   font-size: 25px;
   padding: 10px 15px;
 }
+
+/* Form */
+form {
+  text-align: center;
+}
+form input {
+  margin-top: 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
+
+input[type=submit] {
+background: #385998;
+color: #fff;
+font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background:#fff; 
+  color: #385998;
+  font-size: 20px;
+  font-weight: bold;
+  }
